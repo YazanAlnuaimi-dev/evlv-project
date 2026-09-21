@@ -1,0 +1,41 @@
+/* ===== EVLV Brand Tokens (from the Brand Guidelines PDF) ===== */
+:root {
+  /* Primary palette */
+  --color-cream-white: #f2eee3;
+  --color-off-white: #f9f7f1;
+  --color-white: #ffffff;
+  --color-space-gray: #4d4d4d;
+  --color-charcoal: #1a1a1a;
+
+  /* Charcoal opacity tones */
+  --color-charcoal-80: #484848;
+  --color-charcoal-60: #767676;
+  --color-charcoal-40: #a3a3a3;
+  --color-charcoal-20: #d1d1d1;
+  --color-charcoal-10: #e8e8e8;
+  --color-charcoal-5: #f4f4f4;
+
+  /* Typography */
+  --font-primary: 'Poppins', sans-serif; /* headings, buttons, body */
+  --font-secondary: 'Inter', sans-serif; /* subheadings / section labels */
+
+  /* Type scale (line-height 125% site-wide; captions get +8% letter-spacing) */
+  --text-h1-size: 40px;
+  --text-h1-weight: 300;
+  --text-h2-size: 32px;
+  --text-h2-weight: 300;
+  --text-h3-size: 28px;
+  --text-h3-weight: 300;
+  --text-subheading-size: 24px;
+  --text-subheading-weight: 600;
+  --text-subheading2-size: 18px;
+  --text-subheading2-weight: 600;
+  --text-body-size: 16px;
+  --text-body-weight: 400;
+  --text-button-size: 14px;
+  --text-button-weight: 600;
+  --text-placeholder-size: 14px;
+  --text-placeholder-weight: 500;
+  --text-caption-size: 12px;
+  --text-caption-weight: 400;
+}

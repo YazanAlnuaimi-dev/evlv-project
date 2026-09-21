@@ -1,0 +1,15 @@
+/* ===== Global page defaults ===== */
+
+/* Prevents accidental horizontal scroll on every viewport */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: #000;
+  color: var(--color-cream-white);
+  position: relative;
+}

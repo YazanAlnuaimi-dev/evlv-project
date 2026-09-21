@@ -1,0 +1,64 @@
+/* ===== Hero: pinned scroll-chase headline ("BUILT / FOR THE / BOLD") ===== */
+
+/* Tall scroll track: GSAP pins .hero-sticky and scrubs the words through it */
+.hero-container {
+  height: 280vh;
+  position: relative;
+}
+
+.hero-sticky {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 8%;
+  overflow: hidden; /* clips the words while they travel in from below the fold */
+  position: relative;
+}
+
+.hero-word-line {
+  display: block;
+  margin-bottom: 4px;
+  /* overflow is intentionally NOT hidden here: the words must stay visible while
+     they travel through the viewport; .hero-sticky clips them at the screen edges. */
+}
+
+.hero-word-line span {
+  display: inline-block;
+  will-change: transform;
+}
+
+.hero-title-brand {
+  font-family: var(--font-primary);
+  font-size: 2.25rem;
+  line-height: 0.95;
+  letter-spacing: -1px;
+  font-weight: 700;
+  margin-bottom: 3.5rem; /* separation from the Join options below */
+}
+
+@media (min-width: 768px) {
+  .hero-title-brand {
+    font-size: 4.25rem;
+    letter-spacing: -2px;
+    margin-bottom: 5rem;
+  }
+}
+
+/* Faint EVLV logo watermark behind the headline; fades out as the words assemble */
+.hero-logo-watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(66vw, 880px);
+  height: auto;
+  filter: invert(1) brightness(10) grayscale(1);
+  opacity: 1;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+}

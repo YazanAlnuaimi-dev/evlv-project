@@ -1,0 +1,18 @@
+/* ===== Fixed EVLV mark in the bottom-right corner (desktop only) ===== */
+.corner-logo {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0.9;
+  filter: invert(1) brightness(1.8) sepia(0.1) saturate(0.8);
+}
+
+@media (max-width: 767px) {
+  .corner-logo {
+    display: none;
+  }
+}

@@ -1,0 +1,59 @@
+/*
+ * Reusable type-scale classes so new sections can pull straight from the
+ * brand guidelines instead of guessing sizes and weights.
+ */
+.type-h1 {
+  font-family: var(--font-primary);
+  font-size: var(--text-h1-size);
+  font-weight: var(--text-h1-weight);
+  line-height: 1.25;
+}
+.type-h2 {
+  font-family: var(--font-primary);
+  font-size: var(--text-h2-size);
+  font-weight: var(--text-h2-weight);
+  line-height: 1.25;
+}
+.type-h3 {
+  font-family: var(--font-primary);
+  font-size: var(--text-h3-size);
+  font-weight: var(--text-h3-weight);
+  line-height: 1.25;
+}
+.type-subheading {
+  font-family: var(--font-primary);
+  font-size: var(--text-subheading-size);
+  font-weight: var(--text-subheading-weight);
+  line-height: 1.25;
+}
+.type-subheading2 {
+  font-family: var(--font-primary);
+  font-size: var(--text-subheading2-size);
+  font-weight: var(--text-subheading2-weight);
+  line-height: 1.25;
+}
+.type-body {
+  font-family: var(--font-primary);
+  font-size: var(--text-body-size);
+  font-weight: var(--text-body-weight);
+  line-height: 1.25;
+}
+.type-button-label {
+  font-family: var(--font-primary);
+  font-size: var(--text-button-size);
+  font-weight: var(--text-button-weight);
+  line-height: 1.25;
+}
+.type-placeholder {
+  font-family: var(--font-primary);
+  font-size: var(--text-placeholder-size);
+  font-weight: var(--text-placeholder-weight);
+  line-height: 1.25;
+}
+.type-caption {
+  font-family: var(--font-primary);
+  font-size: var(--text-caption-size);
+  font-weight: var(--text-caption-weight);
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+}
