@@ -34,7 +34,6 @@ npm run dev
 ```
 
 - Website (Vite, hot reload): <https://teamevlv.com>
-- API (Express): <http://localhost:3000>. Vite proxies `/api` to it, so there is no CORS setup.
 
 Without a webhook URL, development mode **simulates** successful submissions and prints them to the server console, so you can work on the forms without any account.
 
